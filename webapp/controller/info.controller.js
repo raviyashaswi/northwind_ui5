@@ -1,7 +1,6 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller",
-    "northwind/model/formatter"
-], (Controller, formatter) => {
+    "sap/ui/core/mvc/Controller"
+], (Controller) => {
     "use strict";
 
     return Controller.extend("northwind.controller.info", {
@@ -9,7 +8,6 @@ sap.ui.define([
             const oRouter = this.getOwnerComponent().getRouter();
             oRouter.getRoute("Routeinfo").attachPatternMatched(this._onRouteIdMatched, this);
         },
-        formatter: formatter,
 
         _onRouteIdMatched(oEvent) {
             const pID = oEvent.getParameter("arguments").id;

@@ -2,106 +2,105 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:l="sap.ui.layout.form"
     xmlns:m="sap.m">
-
     <ObjectPageLayout id="_IDGenPage">
         <headerTitle>
             <ObjectPageHeader id="_IDGenObjectPageHeader" objectTitle="{ProductName} Info Page" objectSubtitle="ID : {ProductID}">
             </ObjectPageHeader>
         </headerTitle>
         <sections>
-            <ObjectPageSection id="_IDGenObjectPageSection2" titleUppercase="false" title="Product">
+            <ObjectPageSection id="_IDGenObjectPageSection2" titleUppercase="false" title="{i18n>Product}">
                 <subSections>
                     <ObjectPageSubSection id="_IDGenObjectPageSubSection2" titleUppercase="false">
                         <l:SimpleForm id="RemoteForm" editable="false" layout="ResponsiveGridLayout">
-                            <m:Label id="_IDGenLabel3" text="SupplierID" />
+                            <m:Label id="_IDGenLabel3" text="{i18n>SupplierID}" />
                             <m:Text id="_IDGenText19" text="{SupplierID}" />
-                            <m:Label id="_IDGenLabel4" text="CategoryID" />
+                            <m:Label id="_IDGenLabel4" text="{i18n>CategoryID}" />
                             <m:Text id="_IDGenText21" text="{CategoryID}" />
-                            <m:Label id="_IDGenLabel5" text="QuantityPerUnit" />
+                            <m:Label id="_IDGenLabel5" text="{i18n>QuantityPerUnit}" />
                             <m:Text id="_IDGenText22" text="{QuantityPerUnit}" />
-                            <m:Label id="_IDGenLabel6" text="UnitPrice" />
+                            <m:Label id="_IDGenLabel6" text="{i18n>UnitPrice}" />
                             <m:Text id="_IDGenText26" text="{UnitPrice}" />
-                            <m:Label id="_IDGenLabel7" text="UnitsInStock" />
+                            <m:Label id="_IDGenLabel7" text="{i18n>UnitsInStock}" />
                             <m:Text id="_IDGenText27" text="{UnitsInStock}" />
-                            <m:Label id="_IDGenLabel8" text="UnitsOnOrder" />
+                            <m:Label id="_IDGenLabel8" text="{i18n>UnitsOnOrder}" />
                             <m:Text id="_IDGenText28" text="{UnitsOnOrder}" />
-                            <m:Label id="_IDGenLabel9" text="ReorderLevel" />
+                            <m:Label id="_IDGenLabel9" text="{i18n>ReorderLevel}" />
                             <m:Text id="_IDGenText29" text="{ReorderLevel}" />
-                            <m:Label id="_IDGenLabel10" text="Discontinued" />
+                            <m:Label id="_IDGenLabel10" text="{i18n>Discontinued}" />
                             <m:Text id="_IDGenText30" text="{Discontinued}" />
                         </l:SimpleForm>
                     </ObjectPageSubSection>
                 </subSections>
             </ObjectPageSection>
-            <ObjectPageSection id="_IDGenObjectPageSection1" titleUppercase="false" title="Category">
+            <ObjectPageSection id="_IDGenObjectPageSection1" titleUppercase="false" title="{i18n>Category}">
                 <subSections>
                     <ObjectPageSubSection id="_IDGenObjectPageSubSection1" titleUppercase="false">
-                        <l:SimpleForm id="_IDGenSimpleForm1"  editable="false" layout="ResponsiveGridLayout">
-                            <m:Label id="_IDGenLabel" text="Category ID" />
+                        <l:SimpleForm id="_IDGenSimpleForm1" editable="false" layout="ResponsiveGridLayout">
+                            <m:Label id="_IDGenLabel" text="{i18n>CategoryID}" />
                             <m:Text id="_IDGenText23" text="{CategoryID}" />
-                            <m:Label id="_IDGenLabel1" text="Category Name" />
+                            <m:Label id="_IDGenLabel1" text="{i18n>CategoryName}" />
                             <m:Text id="_IDGenText24" text="{Category/CategoryName}" />
-                            <m:Label id="_IDGenLabel2" text="Category Description" />
+                            <m:Label id="_IDGenLabel2" text="{i18n>CategoryDescription}" />
                             <m:Text id="_IDGenText25" text="{Category/Description}" />
                         </l:SimpleForm>
                     </ObjectPageSubSection>
                 </subSections>
             </ObjectPageSection>
-            <ObjectPageSection id="_IDGenObjectPageSection3" titleUppercase="false" title="Supplier">
+            <ObjectPageSection id="_IDGenObjectPageSection3" titleUppercase="false" title="{i18n>Supplier}">
                 <subSections>
                     <ObjectPageSubSection id="_IDGenObjectPageSubSection" titleUppercase="false">
                         <l:SimpleForm id="_IDGenSimpleForm2" editable="false" layout="ResponsiveGridLayout">
-                            <m:Label id="_IDGenLabel11" text="SupplierID" />
+                            <m:Label id="_IDGenLabel11" text="{i18n>SupplierID}" />
                             <m:Text id="_IDGenText31" text="{Supplier/SupplierID}" />
-                            <m:Label id="_IDGenLabel12" text="Address" />
+                            <m:Label id="_IDGenLabel12" text="{i18n>Address}" />
                             <m:Text id="_IDGenText32" text="{Supplier/Address}" />
-                            <m:Label id="_IDGenLabel13" text="CompanyName" />
+                            <m:Label id="_IDGenLabel13" text="{i18n>CompanyName}" />
                             <m:Text id="_IDGenText33" text="{Supplier/CompanyName}" />
-                            <m:Label id="_IDGenLabel14" text="ContactName" />
+                            <m:Label id="_IDGenLabel14" text="{i18n>ContactName}" />
                             <m:Text id="_IDGenText34" text="{Supplier/ContactName}" />
-                            <m:Label id="_IDGenLabel15" text="ContactTitle" />
+                            <m:Label id="_IDGenLabel15" text="{i18n>ContactTitle}" />
                             <m:Text id="_IDGenText35" text="{Supplier/ContactTitle}" />
-                            <m:Label id="_IDGenLabel16" text="Country" />
+                            <m:Label id="_IDGenLabel16" text="{i18n>Country}" />
                             <m:Text id="_IDGenText36" text="{Supplier/Country}" />
-                            <m:Label id="_IDGenLabel17" text="Fax" />
+                            <m:Label id="_IDGenLabel17" text="{i18n>Fax}" />
                             <m:Text id="_IDGenText37" text="{Supplier/Fax}" />
-                            <m:Label id="_IDGenLabel18" text="HomePage" />
+                            <m:Label id="_IDGenLabel18" text="{i18n>HomePage}" />
                             <m:Text id="_IDGenText38" text="{Supplier/HomePage}" />
-                            <m:Label id="_IDGenLabel19" text="Phone" />
+                            <m:Label id="_IDGenLabel19" text="{i18n>Phone}" />
                             <m:Text id="_IDGenText39" text="{Supplier/Phone}" />
-                            <m:Label id="_IDGenLabel20" text="PostalCode" />
+                            <m:Label id="_IDGenLabel20" text="{i18n>PostalCode}" />
                             <m:Text id="_IDGenText40" text="{Supplier/PostalCode}" />
-                            <m:Label id="_IDGenLabel21" text="Products" />
+                            <m:Label id="_IDGenLabel21" text="{i18n>Products}" />
                             <m:Text id="_IDGenText41" text="{Supplier/Products}" />
-                            <m:Label id="_IDGenLabel22" text="Region" />
+                            <m:Label id="_IDGenLabel22" text="{i18n>Region}" />
                             <m:Text id="_IDGenText42" text="{Supplier/Region}" />
+
                         </l:SimpleForm>
                     </ObjectPageSubSection>
                 </subSections>
             </ObjectPageSection>
-            <ObjectPageSection id="_IDGenObjectPageSection4" title="Order_Details">
+            <ObjectPageSection id="_IDGenObjectPageSection4" titleUppercase="false" title="{i18n>OrderDetails}">
                 <subSections>
                     <ObjectPageSubSection id="_IDGenObjectPageSubSection3">
                         <m:ScrollContainer id="_IDGenScrollContainer" height="200px" vertical="true">
-                            <m:Table id="_IDGenTable1"  items="{/Order_Details}">
+                            <m:Table id="_IDGenTable1" items="{/Order_Details}">
                                 <m:columns>
                                     <m:Column id="_IDGenColumn11">
-                                        <m:Text id="_IDGenText43" text="Order ID"/>
+                                        <m:Text id="_IDGenText43" text="{i18n>OrderID}" />
                                     </m:Column>
                                     <m:Column id="_IDGenColumn12">
-                                        <m:Text id="_IDGenText44" text="Product ID"/>
+                                        <m:Text id="_IDGenText44" text="{i18n>ProductID}" />
                                     </m:Column>
                                     <m:Column id="_IDGenColumn13">
-                                        <m:Text id="_IDGenText45" text="Unit Price"/>
+                                        <m:Text id="_IDGenText45" text="{i18n>UnitPrice}" />
                                     </m:Column>
                                     <m:Column id="_IDGenColumn14">
-                                        <m:Text id="_IDGenText46" text="Quantity"/>
+                                        <m:Text id="_IDGenText46" text="{i18n>Quantity}" />
                                     </m:Column>
                                     <m:Column id="_IDGenColumn15">
-                                        <m:Text id="_IDGenText47" text="Discount"/>
+                                        <m:Text id="_IDGenText47" text="{i18n>Discount}" />
                                     </m:Column>
                                 </m:columns>
-
                                 <m:items>
                                     <m:ColumnListItem id="_IDGenColumnListItem">
                                         <m:cells>
@@ -113,15 +112,11 @@
                                         </m:cells>
                                     </m:ColumnListItem>
                                 </m:items>
-
                             </m:Table>
                         </m:ScrollContainer>
-
                     </ObjectPageSubSection>
                 </subSections>
             </ObjectPageSection>
         </sections>
     </ObjectPageLayout>
-
-
 </mvc:View>
