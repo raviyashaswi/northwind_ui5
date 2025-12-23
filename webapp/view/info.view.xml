@@ -5,7 +5,8 @@
     <ObjectPageLayout id="_IDGenPage">
         <headerTitle>
             <ObjectPageHeader id="_IDGenObjectPageHeader" objectTitle="{ProductName} Info Page" objectSubtitle="ID : {ProductID}">
-            </ObjectPageHeader>
+            <m:Image src="{path:'Category/Picture',formatter:'.imageFormatter'}"  id="_IDGenImage"/>
+                        </ObjectPageHeader>
         </headerTitle>
         <sections>
             <ObjectPageSection id="_IDGenObjectPageSection2" titleUppercase="false" title="{i18n>Product}">
